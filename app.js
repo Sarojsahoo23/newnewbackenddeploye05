@@ -23,8 +23,8 @@ app.use(
   })
 );
 
-// ✅ Correct CORS Setup
-const allowedOrigins = ["http://localhost:5173"];
+
+const allowedOrigins = ["https://newnewsfrontend01.vercel.app/"];
 
 app.use(
   cors({
