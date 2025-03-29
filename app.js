@@ -24,7 +24,7 @@ app.use(
 );
 
 
-const allowedOrigins = ["https://newnewsfrontend01.vercel.app"];
+const allowedOrigins = ["https://newnewsfrontend01.vercel.app","https://www.newsnew.in"];
 
 app.use(
   cors({
